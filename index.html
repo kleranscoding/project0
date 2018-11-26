@@ -1,0 +1,163 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Clarence's Page</title>
+    <meta charset='utf-8'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Ubuntu' >
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel='stylesheet' type='text/css' href='styles/styles.css'>
+    <script type='text/javascript' src='scripts/app.js'></script>
+  </head>
+  <body>
+    <header class='banner'>
+      <h2 class='hello'>Hello, World!</h2>
+      <nav class='nav-bar'>
+        <span class='hamburger'><i class='fa fa-bars'></i></span>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Projects</li>
+          <li>Skills</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </header>
+    
+    <section>
+      <div class='intro-container'>
+        <p class='intro'>Clarence Cheung</p>
+        <p class='intro'>Full-Stack Developer <span></span></p>
+      </div> 
+    </section>
+    
+    <section class='about-section'>
+      <div class='container'>
+        <h2>About</h2>
+        <article>
+          <div class='wrapper'>
+          <p class='about'>
+            A web developer with an ambitious heart to create modern and highly interactive websites. 
+          </p>
+          <p>
+            Other skills include data science and maching learning
+          </p>
+          </div>
+          </article>
+        </article>
+      </div>
+    </section>
+    
+    <section>
+      <!-- <div class='container'> -->
+        <div class='modal'>
+          <span class='close'>&times;</span>
+        </div>
+        <h2>Projects</h2>
+        <div class='carousel-container'>
+          <article class='project proj-active'>
+            <div class='project-wrapper'>
+              <img src='assets/country_api.png'>
+              <span class='learn-more'>Learn More</span>
+              <div class='proj-details'>
+                <h3>Country API</h3> 
+                <p>A search app that allows user to search countries by different options</p>
+              </div>
+            </div>
+          </article>
+          <article class='project'>
+            <div class='project-wrapper'>
+              <img src='assets/tictactoe.png'>
+              <span class='learn-more'>Learn more</span>
+              <div class='proj-details'>
+                <h3>Tic Tac Toe</h3>
+                <p>Tic Tac Toe game made with Javascript and AI</p>
+              </div>
+            </div>
+          </article>
+          <article class='project'>
+            <div class='project-wrapper'>
+              <img src='assets/bat_attack.png'>
+              <span class='learn-more'>Learn more</span>
+              <div class='proj-details'>
+                <h3>Bat Attack</h3> 
+                <p>An HTML5 web game creaed with <a href='https://phaser.io' target='_blank'>Phaser.io</a></p>
+              </div>
+            </div>
+          </article>
+          <article class='project'>
+            <div class='project-wrapper'>
+              <img src='assets/phaser_movement_demo.png'>
+              <span class='learn-more'>Learn more</span>
+              <div class='proj-details'>
+                <h3>Phaser Movement Demo</h3> 
+                <p>A mini project created to demonstrate movement using <a href='https://phaser.io' target='_blank'>Phaser.io</a></p>
+              </div>
+            </div>
+          </article>
+          <span class="prev">&#10094;</span>
+          <span class="next">&#10095;</span>
+          <div class='dots'>
+            <span class='dot dot-selected'></span> 
+            <span class='dot'></span> 
+            <span class='dot'></span>
+            <span class='dot'></span>   
+          </div>
+        </div> 
+      <!-- </div> -->
+    </section>
+    
+    
+    <section>
+      <div class='container'>
+        <h2>Skills</h2>
+        <div class='skill-wrapper'>
+          <ul class=''>
+            <p>Web development</p>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>jQuery</li>
+          </ul>
+          <ul class=''>
+            <p>Software development</p>
+            <li>Python</li>
+            <li>Scala</li>
+            <li>Java</li>
+            <li>C/C++</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    
+    <section id='contact'>
+      <div class='container'>
+        <h2>Get In Touch</h2>
+        <div class='social-links-nav'>
+            <a href='https://www.facebook.com' target='_blank'><i class='fa fa-facebook-square'></i></a>
+            <a href='https://www.linkedin.com' target='_blank'><i class='fa fa-twitter-square'></i></a>
+            <a href='https://www.github.com/kleranscoding' target='_blank'><i class='fa fa-github'></i></a>
+          </div>
+        <form class='contact-form' method='POST'>
+          <p>Name</p>
+          <input name='contact_name' type='text' placeholder='Full Name' class='col-4'>
+          <p>Email</p>
+          <input name='contact_email' type='email' placeholder='Email' class='col-4'>
+          <p>Phone</p>
+          <input name='contact_phone' type='tel' placeholder='800-808-8080' class='col-4'>
+          <p>Message</p>
+          <textarea name='contact_msg' rows='10' cols='30' placeholder='Message'></textarea>
+          <button name='contact_submit' >Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class=wrapper>
+      </div>
+      <p class='copyright'>&copy; 2018 Clarence </p>
+    </footer>
+
+  </body>
+</html>
